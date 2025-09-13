@@ -1,0 +1,6 @@
+name: run main.py action
+
+on:
+  push:
+    branches:
+      - main
