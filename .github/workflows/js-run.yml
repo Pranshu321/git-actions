@@ -19,8 +19,7 @@ jobs:
             node-version: '14'
 
         - name: install deps
-          run: |
-          npm install express.js
+          run: npm install express
 
         - name: run js file
           run: node index.js
